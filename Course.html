@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>Unversity Website</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="falcon.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-close"  onclick="hideMenu()"></i>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="About.html">About</a></li>
+                            <li><a href="Course.html">Course</a></li>
+                            <li><a href="Blog.html">Blog</a></li>
+                            <li><a href="Contact.html">Contact</a></li>
+                        </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>  
+        <h1>Our Course</h1>        
+        </section>
+        <!------course---------->
+        <section class="course">
+            <h1>Courses We Offer</h1>
+            <p>The customer is very important, the customer will be followed by the customer.</p>
+
+            <div class="row">
+                <div class="course-col">
+                    <h3>Intermediate</h3>
+                    <p><b>MPC</b>: Mathematics, Physics, and Chemistry<br>
+                        <b>BiPC</b>: Biology, Physics, and Chemistry<br>
+                        <b>CEC</b>: Commerce, Economics, and Civics<br>
+                        <b>CEG</b>: Commerce, Economics, and Geography<br>
+                        <b>HEC</b>: History, Economics, and Civics<br>
+                        <b>MEC</b>: Mathematics, Economics, and Commerce<br> 
+                        <b> All the Courses are available </b></p>
+                </div>
+                <div class="course-col">
+                    <h3>Degree</h3>
+                    <p> Computer Science and Engineering<br>
+                        Engineering<br>
+                        Bechelor of Commerce<br>
+                        Bachelor of Arts<br>
+                        Bachelor of Design<br>
+                        Bachelor of science<br>
+                        Bachelor of Technology<br>
+                        Aeronautical Engineering<br>
+                        Chemical Engineering<br>
+                        Electrical Engineering<br>
+                        Civil Engineering
+                        
+                        </p>
+                </div>
+                <div class="course-col">
+                    <h3>Post Graduation</h3>
+                    <p>MBA<br>
+                        MTecH<br>
+                        MCA<br>
+                        MCom<br>
+                        Postgraduate Diploma<br>
+                        LLB<br>
+                    </p>
+                </div>
+            </div>
+        </section>
+        <!-----Facilities------>
+        <section class="facilities">
+            <h1>Our Facilities</h1>
+    
+            <div class="row">
+                <div class="facilities-col">
+                    <img src="library.png">
+                    <h3>World Class Library</h3>
+                    <p>Books of Great Writer Poets and Even Inspiration books.Guides Are also Availabel for Practice</p>
+                </div>
+                <div class="facilities-col">
+                    <img src="basketball.png">
+                    <h3>Playground</h3>
+                    <p>Games Like Football , Basketball , Badminton , Tennis ,and Volly Ball courts are there for Enjoyment  </p>
+                </div>
+                <div class="facilities-col">
+                    <img src="cafeteria.png">
+                    <h3>Tasty and Healthy Food</h3>
+                    <p>Clean , Tasty , Healthy and Hygienic</p>
+                </div>
+            </div>
+        </section>
+        <!------footer---------->
+        <section class="footer">
+            <h4>About Us</h4>
+            <p></p>
+            <div class="icons">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-linkedin"></i>
+            </div>
+            <p>Made With <i class="fa fa-heart-o"></i> by Hitarth Patel<br>Class: 10th G<br>House: Falcons</p>
+        </section>
+        </section>
+        
+        
+        
+
+        <script>
+             
+             var navLinks = document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+        </script>
+    </body>
+</html>

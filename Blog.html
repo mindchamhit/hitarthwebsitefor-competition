@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>Unversity Website</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="falcon.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-close"  onclick="hideMenu()"></i>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="About.html">About</a></li>
+                            <li><a href="Course.html">Course</a></li>
+                            <li><a href="Blog.html">Blog</a></li>
+                            <li><a href="Contact.html">Contact</a></li>
+                        </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>  
+        <h1>Our Certificates & Online Programs for 2023-24</h1>        
+        </section>
+        <!---blog-->
+        <section class="blog-content">
+            <div class="row">
+                <div class="blog-left">
+                    <h2>Our Certificates & Online Programs for 2023-24</h2>
+                <p>Top Data Science Certifications<br>
+                    1.Listed below are the best certification courses in Data Science:<br>
+                    2.IBM Professional Certificate in Data Engineering Fundamentals<br>
+                    3.Google Data Analytics Professional Certificate<br>
+                    4.Advanced Statistics for Data Science Specialization<br>
+                    5.Advanced Certification in Data Science and Artificial Intelligence<br>
+                    6.Post Graduate Program in Data Science<br>
+                    7.Postgraduate Diploma in Data Science<br><br>
+                    
+                    Things To Laern in Computer:<br>
+                    1.Programming languages like R, Java, SQL, Python, Hadoop, Pig, Matlab, SAS, Spark and Hive<br>
+                    2.Data analysis<br>
+                    3.Machine learning<br>
+                    4.Data visualization<br>
+                    5.Statistical modelling<br>
+                    6.Big data technologies<br>
+                    7.Data wrangling<br>
+                    8.Predictive modelling<br>
+                    9.SQL databases<br>
+                    10.Deep learning<br><br>
+                    
+                    Job Opportunity(In Computer sector)<br>
+                    1.Data Scientist<br>
+                    2.Data Analyst<br>
+                    3.Data Engineer<br>
+                    4.Data Mining Engineer<br>
+                    5.Data Architect<br>
+                    6.Data Statistician<br>
+                    7.Clinical Data Scientist</p>
+                <div class="comment-box">
+                    <h3> Leave A Comment</h3>
+                    <form class="comment-form">
+                        <input type="text" placeholder="Enter Name">
+                        <input type="email" placeholder="Enter Email Address">
+                        <textarea row = "5" placeholder="Your Comment"></textarea>
+                        <button type="submit" class="hero-btn red-btn">Post Comment</button>
+                    </form>
+                </div>
+                </div>
+                <div class="blog-right">
+                    <h3>Post Categories</h3>
+                    <div>
+                        <span>Business Analytics</span>
+                        <span>21</span>
+                    </div>
+                    <div>
+                        <span>Data Science</span>
+                        <span>28</span>
+                    </div>
+                    <div>
+                        <span>Machine Learning</span>
+                        <span>15</span>
+                    </div>
+                    <div>
+                        <span>AutoCAD</span>
+                        <span>42</span>
+                    </div>
+                    <div>
+                        <span>Journalism</span>
+                        <span>22</span>
+                    </div>
+                    <div>
+                        <span>Commerce</span>
+                        <span>30</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+       
+        <!------footer---------->
+        <section class="footer">
+            <h4>About Us</h4>
+            <p></p>
+            <div class="icons">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-linkedin"></i>
+            </div>
+            <p>Made With <i class="fa fa-heart-o"></i> by Hitarth Patel<br>Class: 10th G<br>House: Falcons</p>
+        </section>
+        </section>
+        
+        
+        
+
+        <script>
+             
+             var navLinks = document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+        </script>
+    </body>
+</html>
